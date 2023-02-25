@@ -1727,12 +1727,16 @@ print(f'Testing Score: {eec.score(X_test, y_test)}')
 ```python
 # Calculated the balanced accuracy score
 
-y_pred = random_forest.predict(X_test)
+
+```python
+# Calculated the balanced accuracy score
+
+y_pred = eec.predict(X_test)
 acc_score = balanced_accuracy_score(y_test, y_pred)
 print(f"Accuracy Score : {acc_score}")
 ```
 
-    Accuracy Score : 0.7821434856301346
+    Accuracy Score : 0.9316600714093861
 
 
 
@@ -1749,6 +1753,19 @@ display(cm_df)
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1760,13 +1777,13 @@ display(cm_df)
   <tbody>
     <tr>
       <th>Actual 0</th>
-      <td>68</td>
-      <td>33</td>
+      <td>93</td>
+      <td>8</td>
     </tr>
     <tr>
       <th>Actual 1</th>
-      <td>1864</td>
-      <td>15240</td>
+      <td>983</td>
+      <td>16121</td>
     </tr>
   </tbody>
 </table>
@@ -1783,10 +1800,14 @@ print(classification_report_imbalanced(y_test, y_pred))
     Imbalanced Classification Report
                        pre       rec       spe        f1       geo       iba       sup
     
-      high_risk       0.04      0.67      0.89      0.07      0.77      0.59       101
-       low_risk       1.00      0.89      0.67      0.94      0.77      0.61     17104
+      high_risk       0.09      0.92      0.94      0.16      0.93      0.87       101
+       low_risk       1.00      0.94      0.92      0.97      0.93      0.87     17104
     
-    avg / total       0.99      0.89      0.67      0.94      0.77      0.61     17205
+    avg / total       0.99      0.94      0.92      0.97      0.93      0.87     17205
     
 
 
+
+```python
+
+```
