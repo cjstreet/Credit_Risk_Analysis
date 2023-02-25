@@ -32,9 +32,9 @@ The table below contains the balanced accuracy scores, the precision and recall 
     <tr style="text-align: center;">
       <th></th>
       <th>RandomOverSampler</th>
-      <th>SMOTE</th>
+      <th>  SMOTE. </th>
       <th>ClusterCentroids</th>
-      <th>SMOTEEN</th>
+      <th> SMOTEEN </th>
       <th>BalancedRandomForestClassifier</th>
       <th>EasyEnsembleClassifier</th>
     </tr>
