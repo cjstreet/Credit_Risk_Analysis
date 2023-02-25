@@ -71,13 +71,12 @@ The table below contains the balanced accuracy scores, the precision and recall 
 </table>
 </div>
 
-The credit card data set from LendingTree has the following unbalanced target values:
+The credit card data set from LendingClub has the following unbalanced target values:
 
 **low_risk**     68470 : 1
 **high_risk**      347 : 0
 
 With each learning model, the resampled dataset was used to train the model, make predictions, and evaluate the model's performance.
-In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
 
 
 ## Summary: 
