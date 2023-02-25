@@ -29,7 +29,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: center;">
       <th></th>
       <th>RandomOverSampler</th>
       <th>SMOTE</th>
