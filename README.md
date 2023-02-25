@@ -1,5 +1,5 @@
 # Credit_Risk_Analysis
-Evaluate three machine learning models by using resampling to determine which is better at predicting credit risk.
+Evaluate six machine learning models by using resampling to determine which is better at predicting credit risk.
 
 
 
@@ -32,9 +32,9 @@ The table below contains the balanced accuracy scores, the precision and recall 
     <tr style="text-align: center;">
       <th></th>
       <th>RandomOverSampler</th>
-      <th>  SMOTE. </th>
+      <th> __SMOTE__ </th>
       <th>ClusterCentroids</th>
-      <th> SMOTEEN </th>
+      <th> _SMOTEEN_ </th>
       <th>BalancedRandomForestClassifier</th>
       <th>EasyEnsembleClassifier</th>
     </tr>
@@ -78,13 +78,16 @@ The credit card data set from LendingClub has the following unbalanced target va
 
 With each learning model, the resampled dataset was used to train the model, make predictions, and evaluate the model's performance.
 
-Recall is from all the positive classes, how many we predicted correctly.
-Precision is from all the classes we have predicted as positive, how many are actually positive.
-Accuracy is from all the classes (positive and negative), how many of them we have predicted correctly.
-
+Recall is the value from all the positive classes, how many we predicted correctly.
+Precision is the value from all the classes we have predicted as positive, how many are actually positive.
+Accuracy is the value from all the classes (positive and negative), how many of them we have predicted correctly.
 
 
 ## Summary: 
+
+The goal is to get better at predicting **high-risk** loans thus saving financial companies money. The dataset has a class imbalance, 99.5% of the loans were low-risk and .5% of the loans were high-risk oversampling, undersampling, and a combination approach of oversampling and undersampling.
+Six machine learning models were compared to try to find the best model at predicting high-risk loan (loans clients would default on).
+
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
 
