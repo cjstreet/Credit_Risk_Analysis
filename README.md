@@ -89,9 +89,10 @@ The goal is to get better at predicting **high-risk** loans thus saving financia
 
 The first four models oversampling, undersampling, and a combination approach of oversampling and undersampling all had a accuracy from 53%-65%. This is low. The models precision was very low at identifying **high-risk** classes. Lastly, the recall was between 45% - 68%. The first model, RandomOverSampler performed the best, but still not good enough to recommend. 
 
+The last two were ensemble models, BalanceRandomForest and EasyEnsembleClassifier. Both have an accuracy of 78%, very low precision for high-risk loans, and the same recall rate of 89%.
 
 
-Six machine learning models were compared to try to find the best model at predicting high-risk loan (loans clients would default on).
+Six machine learning models were compared to try to find the best model at predicting high-risk loans (loans clients would default on).
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
