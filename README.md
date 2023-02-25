@@ -26,6 +26,59 @@ Overview of Steps:
 ## Results: 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>RandomOverSampler</th>
+      <th>SMOTE</th>
+      <th>ClusterCentroids</th>
+      <th>SMOTEEN</th>
+      <th>BalancedRandomForestClassifier</th>
+      <th>EasyEnsembleClassifier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10500.0</td>
+      <td>0.1719</td>
+      <td>375.35</td>
+      <td>RENT</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>25000.0</td>
+      <td>0.2000</td>
+      <td>929.09</td>
+      <td>MORTGAGE</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>20000.0</td>
+      <td>0.2000</td>
+      <td>529.88</td>
+      <td>MORTGAGE</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000.0</td>
+      <td>0.1640</td>
+      <td>353.55</td>
+      <td>RENT</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+
 ## Summary: 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
