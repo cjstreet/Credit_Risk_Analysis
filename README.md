@@ -20,7 +20,7 @@ Overview of Steps:
 
 * Data Source: LoanStats_2019Q1.csv
 * ML Libraries: imbalanced-learn, scikit-learn
-* Python 3.0
+* Python 3.11
 * Jupyter NB
 
 ## Results: 
