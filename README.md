@@ -32,9 +32,9 @@ The table below contains the balanced accuracy scores, the precision and recall 
     <tr style="text-align: center;">
       <th></th>
       <th>RandomOverSampler</th>
-      <th> __SMOTE__ </th>
+      <th> ____SMOTE____ </th>
       <th>ClusterCentroids</th>
-      <th> _SMOTEEN_ </th>
+      <th> __SMOTEEN__ </th>
       <th>BalancedRandomForestClassifier</th>
       <th>EasyEnsembleClassifier</th>
     </tr>
@@ -47,7 +47,7 @@ The table below contains the balanced accuracy scores, the precision and recall 
       <td>0.53</td>
       <td>0.64</td>
       <td>0.78</td>
-      <td>0.78</td>
+      <td>0.93</td>
     </tr>
     <tr>
     <th>Precision</th>
@@ -56,7 +56,7 @@ The table below contains the balanced accuracy scores, the precision and recall 
       <td>0.99, 0.01, 1.00</td>
       <td>0.99, 0.01, 1.00</td>
       <td>0.99, 0.04, 1.00</td>
-      <td>0.99, 0.04, 1.00</td>
+      <td>0.99, 0.09, 1.00</td>
     </tr>
     <tr>
    <th>Recall</th>
@@ -65,7 +65,7 @@ The table below contains the balanced accuracy scores, the precision and recall 
       <td>0.45</td>
       <td>0.58</td>
       <td>0.89</td>
-      <td>0.89</td>
+      <td>0.94</td>
     </tr>
   </tbody>
 </table>
@@ -76,11 +76,12 @@ The credit card data set from LendingClub has the following unbalanced target va
 **low_risk**     68470 : 1
 **high_risk**      347 : 0
 
+Six machine learning models were compared to try to find the best model at predicting high-risk loans (loans clients would default on).
 With each learning model, the resampled dataset was used to train the model, make predictions, and evaluate the model's performance.
 
-Recall is the value from all the positive classes, how many we predicted correctly.
-Precision is the value from all the classes we have predicted as positive, how many are actually positive.
-Accuracy is the value from all the classes (positive and negative), how many of them we have predicted correctly.
+- Recall is the value from all the positive classes, how many we predicted correctly.
+- Precision is the value from all the classes we have predicted as positive, how many are actually positive.
+- Accuracy is the value from all the classes (positive and negative), how many of them we have predicted correctly.
 
 
 ## Summary: 
@@ -89,12 +90,9 @@ The goal is to get better at predicting **high-risk** loans thus saving financia
 
 The first four models oversampling, undersampling, and a combination approach of oversampling and undersampling all had a accuracy from 53%-65%. This is low. The models precision was very low at identifying **high-risk** classes. Lastly, the recall was between 45% - 68%. The first model, RandomOverSampler performed the best, but still not good enough to recommend. 
 
-The last two were ensemble models, BalanceRandomForest and EasyEnsembleClassifier. Both have an accuracy of 78%, very low precision for high-risk loans, and the same recall rate of 89%.
+The last two were ensemble models, BalanceRandomForest and EasyEnsembleClassifier. They had a higher rate of 78% and 93%, still a low precision for identifying high-risk loans, and a recall rate of 89% and 94%.
 
-
-Six machine learning models were compared to try to find the best model at predicting high-risk loans (loans clients would default on).
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+I would recommend the EasyEnsembleClassifier based on the accuracy and recall values. Still precision is low but accuracy is very high. This means this model will likely predict 94% of both classes positive and negative, correctly. Thus identifying high risk loans better. 
 
 
 # Resampling Models to Predict Credit Risk 
