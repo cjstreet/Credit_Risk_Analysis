@@ -51,10 +51,10 @@ The table below contains the balanced accuracy scores, the precision and recall 
     </tr>
     <tr>
     <th>Precision</th>
-      <td>0.99</td>
-      <td>0.99</td>
-      <td>0.99</td>
-      <td>0.99</td>
+      <td>0.99, 0.01, 1.00</td>
+      <td>0.99, 0.01, 1.00</td>
+      <td>0.99, 0.01, 1.00</td>
+      <td>0.99, 0.01, 1.00</td>
       <td>0.99, 0.04, 1.00</td>
       <td>0.99, 0.04, 1.00</td>
     </tr>
