@@ -41,42 +41,35 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>10500.0</td>
-      <td>0.1719</td>
-      <td>375.35</td>
-      <td>RENT</td>
+      <th>Accuracy</th>
+      <td>0.65</td>
+      <td>0.62</td>
+      <td>0.53</td>
+      <td>0.64</td>
+      <td>0.78</td>
+      <td>0.78</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>25000.0</td>
-      <td>0.2000</td>
-      <td>929.09</td>
-      <td>MORTGAGE</td>
+    <th>Precision</th>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.99</td>
+      <td>0.99</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>20000.0</td>
-      <td>0.2000</td>
-      <td>529.88</td>
-      <td>MORTGAGE</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>10000.0</td>
-      <td>0.1640</td>
-      <td>353.55</td>
-      <td>RENT</td>
+   <th>Recall</th>
+      <td>0.68</td>
+      <td>0.64</td>
+      <td>0.45</td>
+      <td>0.58</td>
+      <td>0.89</td>
+      <td>0.89</td>
     </tr>
   </tbody>
 </table>
 </div>
-
-
-
-
-
-
 
 
 ## Summary: 
