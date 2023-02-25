@@ -24,8 +24,8 @@ Overview of Steps:
 * Jupyter NB
 
 ## Results: 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
+The table below contains the balanced accuracy scores, the precision and recall scores of all six machine learning models. The entire Jupyter NB follows the Summary.
 
 <table border="1" class="dataframe">
   <thead>
