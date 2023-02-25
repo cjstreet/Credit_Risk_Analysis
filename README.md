@@ -85,7 +85,12 @@ Accuracy is the value from all the classes (positive and negative), how many of 
 
 ## Summary: 
 
-The goal is to get better at predicting **high-risk** loans thus saving financial companies money. The dataset has a class imbalance, 99.5% of the loans were low-risk and .5% of the loans were high-risk oversampling, undersampling, and a combination approach of oversampling and undersampling.
+The goal is to get better at predicting **high-risk** loans thus saving financial companies money. The dataset has a class imbalance issue 99.5% of the loans were low-risk and .5% of the loans were high-risk. To address class imbalance the following models will be used: oversampling, undersampling, and a combination approach of oversampling and undersampling.
+
+The first four models oversampling, undersampling, and a combination approach of oversampling and undersampling all had a accuracy from 53%-65%. This is low. The models precision was very low at identifying **high-risk** classes. Lastly, the recall was between 45% - 68%. The first model, RandomOverSampler performed the best, but still not good enough to recommend. 
+
+
+
 Six machine learning models were compared to try to find the best model at predicting high-risk loan (loans clients would default on).
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
