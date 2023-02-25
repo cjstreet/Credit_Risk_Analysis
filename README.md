@@ -55,8 +55,8 @@ The table below contains the balanced accuracy scores, the precision and recall 
       <td>0.99</td>
       <td>0.99</td>
       <td>0.99</td>
-      <td>0.99</td>
-      <td>0.99</td>
+      <td>0.99, 0.04, 1.00</td>
+      <td>0.99, 0.04, 1.00</td>
     </tr>
     <tr>
    <th>Recall</th>
@@ -77,6 +77,11 @@ The credit card data set from LendingClub has the following unbalanced target va
 **high_risk**      347 : 0
 
 With each learning model, the resampled dataset was used to train the model, make predictions, and evaluate the model's performance.
+
+Recall is from all the positive classes, how many we predicted correctly.
+Precision is from all the classes we have predicted as positive, how many are actually positive.
+Accuracy is from all the classes (positive and negative), how many of them we have predicted correctly.
+
 
 
 ## Summary: 
